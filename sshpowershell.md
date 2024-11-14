@@ -13,8 +13,10 @@
       Restart-Service ssh
 ##### Maintenant les commandes ssh fonctionnent celon cette syntaxe
       ssh IP@USER "powershell CMD"
-  
-
+##### Pour voir la politique d'execution  
+         Get-ExecutionPolicy
+##### Pour changer la politique (En Administrator)
+         Set-ExecutionPolicy Unrestricted
 
 
 
